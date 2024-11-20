@@ -2,7 +2,6 @@ let particles = [];
 const maxParticles = 100;
 
 function setup() {
-  noCursor();
   const canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("background-canvas"); // Asocia el lienzo al div del fondo
   for (let i = 0; i < maxParticles; i++) {
@@ -13,6 +12,9 @@ function setup() {
 
 function draw() {
   background(19, 94, 80, 50); // Fondo translúcido
+  noCursor();
+  noCursor();
+
   for (let particle of particles) {
     particle.move();
     particle.display();
