@@ -8,14 +8,14 @@ body {
 }
 
 body {
-  background-color: #135e50;
+  background-color: #000000;
 }
 
 /* Estilo del título */
 h1 {
   color: #5aa8bb;
   font-family: "Helvetica", serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
   font-size: 4rem;
 }

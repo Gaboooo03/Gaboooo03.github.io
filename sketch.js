@@ -2,6 +2,7 @@ let particles = [];
 const maxParticles = 100;
 
 function setup() {
+  noCursor();
   const canvas = createCanvas(windowWidth, windowHeight);
   canvas.parent("background-canvas"); // Asocia el lienzo al div del fondo
   for (let i = 0; i < maxParticles; i++) {
